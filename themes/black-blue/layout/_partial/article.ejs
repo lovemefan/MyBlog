@@ -98,7 +98,7 @@
         </p>
 
       <% } %>
-
+				
       <div class="clearfix"></div>
 
     </div>
@@ -112,7 +112,7 @@
     <%- partial('post/nav') %>
 
   <% } %>
-
+  
 </article>
 
 <% if (!index && post.toc != false && !is_page()){ %>
@@ -158,10 +158,14 @@
             shortname: theme.disqus.shortname
 
           }) %>
+		else if (theme.uyan.on) { %>
+
+        <%- partial('comments/uyan', {
+
+          }) %>
 
     <% } else if (config.disqus_shortname) { %>
-
-        <%- partial('comments/disqus', {
+			<%- partial('comments/disqus', {
 
             shortname: config.disqus_shortname
 

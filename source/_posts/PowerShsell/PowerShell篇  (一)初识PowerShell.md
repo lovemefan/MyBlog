@@ -3,6 +3,11 @@ title: PowerShell篇 (一) 初识PowerShell
 date: 2017-07-05 20:53:23
 tags: PowerShell
 ---
+** {{ title }}：** <Excerpt in index | 首页摘要>
+什么是PowerShell
+<!-- more -->
+<The rest of contents | 余下全文>
+
 # 初识PowerShell
 `作者：lovemefan` `以下资料收集于IT之家和知乎`
 ## PowerShell的邂逅
