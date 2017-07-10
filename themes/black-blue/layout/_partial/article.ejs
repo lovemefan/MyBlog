@@ -104,13 +104,22 @@
     </div>
 
     <% } %>
-
+	
   </div>
+
 
   <% if (!index){ %>
 
     <%- partial('post/nav') %>
 
+  <% } %>
+  <% if (!index){ %>
+	<div style="background:#FFF>
+		<!-- UY BEGIN -->
+		<div id="uyan_frame"></div>
+		<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2138284"></script>
+		<!-- UY END -->
+	</div>
   <% } %>
   
 </article>
@@ -158,9 +167,14 @@
             shortname: theme.disqus.shortname
 
           }) %>
-		else if (theme.uyan.on) { %>
+	<% } else if (theme.uyan.on) { %>
 
         <%- partial('comments/uyan', {
+
+          }) %>
+	<% } else if (theme.cloudTie.on) { %>
+
+        <%- partial('comments/cloudTie', {
 
           }) %>
 

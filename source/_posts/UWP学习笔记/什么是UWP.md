@@ -30,3 +30,7 @@ tags: [UWP,APP开发,学习笔记]
 * 首先，我看重的是UWP的优势，一次编译，能在所有Win 10 设备运行，包括电脑、平板、手机(Win10 手机)、XBox、HoloLens、surface Hub、loT(物联网)。微软费尽心思推广Win10，就是为了增加UWP的运行环境。现在及未来Win10的装机量不容小视。而且UWP小巧轻便，前途无可限量。
 * 其次，UWP有着自己的类似Google Play和Apple Store的应用商店，保证其安全性。
 * 然后，我想尽自己一份微薄力量来完善Windows 生态，主要还是Windows phone的生态。
+## 学习资料
+* UWP微软官方学习课程 [官方MVA]]() [bilibili搬运](http://www.bilibili.com/video/av7997007/)
+Microsoft Virtual Academy (MVA)   [【链接】](https://mva.microsoft.com/)是微软官方的一个免费的视频教学课堂。里面有大量的学习资源(有中文字幕)，强烈推荐。
+* 深出浅入UWP （中文课程）[【bilibili】](http://www.bilibili.com/video/av3610677)
